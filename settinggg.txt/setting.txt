@@ -1,0 +1,55 @@
+{
+  "html.format.endWithNewline": true,
+  "html.format.templating": true,
+  "prettier.documentSelectors": [
+    "javascriptreact",
+    "typescriptreact",
+    "javascript",
+    "typescript",
+    "react",
+    "cpp",
+    "css",
+    "html"
+  ],
+  "editor.formatOnSave": true,
+  "javascript.format.enable": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "prettier.vueIndentScriptAndStyle": true,
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.html": "html"
+  },
+  "prettier.endOfLine": "auto",
+  "prettier.insertPragma": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.withNodeModules": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "bracketPairColorizer.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "C_Cpp.addNodeAddonIncludePaths": true,
+  "C_Cpp.formatting": "vcFormat",
+  "window.dialogStyle": "custom",
+  "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+  "C_Cpp.default.systemIncludePath": ["C:\\MinGW\\bin\\g++.exe"],
+  "C_Cpp.default.includePath": ["C:\\MinGW\\bin\\g++.exe"],
+  "debug.onTaskErrors": "debugAnyway",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "window.commandCenter": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore"
+}
